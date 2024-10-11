@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=shortcut_fix
+X-Python-2-Compatible=false
+X-Krita-Manual=Manual.html
+Name=快捷键修复
+Comment=Win专用，修复微信等程序按住 F22 导致快捷键失效问题
