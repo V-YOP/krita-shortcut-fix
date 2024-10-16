@@ -1,5 +1,32 @@
 # Shortcut fix
 
-**Win专用**（因为直接使用了Windows的API），修复微信等程序按住 F22 导致快捷键失效问题，原理是间隔 100ms 去检查 F22 是否被按下，如果被按下则抬起它。
+[中文文档](README_zh.md)
 
-看是否有必要做跨平台吧
+**Only for Windows**, Fix krita shortcut problem caused by WeChat and other programs who always holds key F22 by **release F22 in duration**.
+
+Don't know it's necessary or not to make it cross-platform.
+
+# Install
+
+1. Click green button `<> Code` on top right，Click menu item `Download ZIP` to download plugin with ZIP format，**DO NOT EXTRACT IT**。
+
+![Download ZIP](en-0.png)
+
+1. Open Krita，Select menu `Tools`-`Scripts`-`Import Python Plugin From File`，select the zip file downloaded above.
+
+![Import](en-1.png)
+
+3. Click 'Yes' to enable plugin
+
+![enable](en-2.png)
+
+4. Restart Krita
+
+# Test
+
+1. Disable plugin "快捷键修复"
+2. Restart Krita，Open an image, check if canvas shortcut(like `pan` using `space`) works
+3. Open WeChat, Login it.
+4. Check if canvas shortcut doesn't work
+5. Enable plugin "快捷键修复"
+6. repeat step 2 and 3, check if canvas shortcut still works
