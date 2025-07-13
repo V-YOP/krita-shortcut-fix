@@ -1,3 +1,7 @@
+# DEPCREATED
+
+**after 5.2.10, krita fixed this problem by ignoring any function key higher than F12**. so this plugin won't be needed anymore. see <https://krita.org/en/posts/2025/krita-5.2.10-released/>.
+
 # Shortcut fix
 
 [中文文档](README_zh.md)
